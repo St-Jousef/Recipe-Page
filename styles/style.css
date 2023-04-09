@@ -6,43 +6,156 @@ body {
 
 img {
   width: 100%;
+  margin: 50px 0px;
 }
+
+/* TOP SECTIONS */
+
 .top-container {
-  padding: 52px 330px 40px 330px;
+  padding: 30px 175px 10px 175px;
   align-items: center;
   justify-content: center;
 }
 .header-text {
-  width: 80%;
+  width: 60%;
 }
 .header-text h1 {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 62px;
+  font-size: 48px;
   line-height: 64px;
   color: black;
-  letter-spacing: 0.04rem;
+  margin-bottom: 20px;
+  letter-spacing: 0.02rem;
 }
 
 .sub-header {
   display: flex;
   /* align-items: center; */
-  width: 60%;
-  margin: 50px 0px;
+  width: 64%;
+  margin: 0px 0px;
 }
 .material-icons {
+  font-size: 18px;
   color: #c4c4c4;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 15px 0px 0px;
 }
 .sub-header p {
   font-family: "montserrat";
   font-style: italic;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 17px;
   margin: 0px;
   color: #4f4f4f;
+}
+/* MIDDLE SECTION [INGREDIENT]*/
+
+.steps-report-container {
+  display: grid;
+  grid-template-columns: 80% auto;
+
+  /* margin-top: 4%; */
+}
+.main-container {
+  width: 75%;
+  padding: 5px;
+  position: relative;
+}
+.main-container h3 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin: 0px;
+}
+
+.main-container h5 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  color: #333333;
+}
+.ingredients p {
+  margin: 0px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 25px;
+  color: #555555;
+}
+b {
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 25px;
+  color: #111111;
+}
+
+.checkbox-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5% 92%;
+  column-gap: 15px;
+}
+.paragraph {
+  margin: 0px;
+}
+
+.card-container {
+  width: 100%;
+}
+
+/* INSTRUCTION-SECTION*/
+.instructions p {
+  font-family: "montserrat";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #444444;
+  line-height: 20px;
   text-align: justify;
-  letter-spacing: 0.05rem;
+}
+.instructions b {
+  font-family: "montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #222222;
+  line-height: 20px;
+}
+.box-container {
+  border-style: none;
+  border-radius: 6px;
+  background-color: #f2994a;
+  width: 29px;
+  height: 29px;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+}
+#text {
+  display: grid;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-weight: bolder;
+  font-size: 19px;
+  text-align: center;
+  align-items: center;
+}
+.num-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6% 87%;
+  column-gap: 15px;
+}
+.num-list p {
+  margin: 0px;
 }
