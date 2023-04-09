@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   box-sizing: border-box;
-  position: absolute;
+  /* position: absolute; */
 }
 
 img {
@@ -12,7 +12,7 @@ img {
 /* TOP SECTIONS */
 
 .top-container {
-  padding: 30px 175px 10px 175px;
+  padding: 10% 10% 0% 10%;
   align-items: center;
   justify-content: center;
 }
@@ -53,8 +53,10 @@ img {
 /* MIDDLE SECTION [INGREDIENT]*/
 
 .steps-report-container {
+  position: relative;
   display: grid;
-  grid-template-columns: 80% auto;
+  row-gap: 5px;
+  grid-template-columns: 75% 20%;
 
   /* margin-top: 4%; */
 }
@@ -81,18 +83,21 @@ img {
   line-height: 24px;
   color: #333333;
 }
+.ingredients h5 {
+  margin-top: 15px;
+}
 .ingredients p {
   margin: 0px;
   font-family: "Montserrat";
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 14px;
   line-height: 25px;
   color: #555555;
 }
 b {
   font-family: "Montserrat";
-  font-weight: 200;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 25px;
   color: #111111;
 }
@@ -158,4 +163,106 @@ b {
 }
 .num-list p {
   margin: 0px;
+}
+/* CARD SECTION */
+.card-container {
+  width: auto;
+  height: 15%;
+  padding: 18%;
+  margin-top: 5px;
+  border: 1px solid;
+  /* border-style: outset; */
+  box-shadow: 3px 3px 3px whitesmoke, 1px 1px 1px 2px wheat,
+    1px 1px 1px rgba(245, 245, 245, 0.534);
+  border-radius: 15px;
+  align-content: center;
+  border-style: none;
+}
+
+.card-container2 {
+  position: relative;
+  width: auto;
+}
+.icons-1 i {
+  color: #f2994a;
+  font-size: 23px;
+}
+.icons-1 h5 {
+  color: #2a634b;
+  font-family: "montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  margin: 0px;
+}
+.icons-1 p {
+  color: #f2994a;
+  font-family: "montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 3px;
+}
+
+.icons i {
+  color: #2a634b;
+  font-size: 23px;
+}
+.icons h5 {
+  color: #309179;
+  font-family: "montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  margin: 0px;
+}
+.icons p {
+  color: #333333;
+  font-family: "montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 3px;
+}
+
+.icons-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6% 87%;
+  column-gap: 25px;
+}
+.icons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6% 87%;
+  column-gap: 25px;
+}
+#content {
+  width: 80%;
+}
+
+.source {
+  font-family: "montsrrat", sans-serif;
+  font-style: italic;
+  font-weight: 100px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #bdbdbd;
+  margin: 4% 0% 9% 14%;
+
+  /* FOOTER SECTION */
+}
+footer p {
+  font-family: "montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin: 20px 0px;
 }
